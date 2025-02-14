@@ -1,0 +1,24 @@
+.face-container {
+    font-size: 5em;
+    margin: 20px;
+}
+
+#face {
+    display: inline-block;
+    transition: transform 0.1s ease-in-out;
+}
+
+button {
+    background: #ff5f6d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #ff9999;
+}
