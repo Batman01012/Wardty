@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentines Wardty 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💖 Happy Valentines Wardty 💖</h1>
+        <p class="subtitle">A special space for us, filled with love and fun.</p>
+        
+        <nav>
+            <button onclick="showPage('letters')">💌 Letter</button>
+            <button onclick="showPage('music')">🎵 A Song That Reminds Me of You So Much</button>
+            <button onclick="showPage('slapHug')">🤗 Slap or Hug TUT</button>
+        </nav>
+
+        <!-- Love Letter Page -->
+        <div id="letters" class="page">
+            <h2>💌 My Love Letter to You</h2>
+            <div class="letter">
+                <p>Dear Wardty,</p>
+                <p>I don't know where to start, I don't believe that Valentine's Day is important, because every day is "love" day with you. A7bk more than anything, w every day I love you more and more.</p>
+                <p>You're the best thing that ever happened to me, I don't know how many times I said it before, bs no ward like you're the best thing that ever happened to me.</p>
+                <p>I'm the luckiest man ever to have the most beautiful woman in the world loving me, +She has the most beautiful heart too. The best love in the world is your love. I really, really, really!!!!!!! LOVE YOU!!!</p>
+                <p>I always pray for us, w I'm excited for what the future has for us inshallah. You're my lover, you're my best friend, you're my everything ya Ward. A7bk A7bk A7bk!!!</p>
+                <p>My happiness w my heart is with you, w they will always be with you ya A7la person ever. I love you more than anything.</p>
+                <p>Yours truly,</p>
+                <p><strong>TUT</strong></p>
+                <p class="ps">P.S: I attached a song page that has a song that describes a bit of what I feel for you. Listen and read every single word please, because it truly reminds me of you so much, A7bk.</p>
+            </div>
+        </div>
+
+        <!-- Music Page -->
+        <div id="music" class="page">
+            <h2>🎵 A Song That Reminds Me of You So Much</h2>
+            <div class="song-container">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/wYyRimdbWno" frameborder="0" allowfullscreen></iframe>
+                <h3>🎼 Lyrics 🎼</h3>
+                <p class="lyrics">
+                    والله أحبك واتمناك وأبيك <br>
+                    وتدري إنك نقطة الضعف فيني <br>
+                    ابيع لأجلك باقي الناس واشريك <br>
+                    وتصير وحدك بين رمشي وعيني <br><br>
+                    
+                    من وين ما لدّن عيوني ألاقيك <br>
+                    حتى وأنا في عز نومي تجيني <br>
+                    مالك شبيه ٍ في عيوني يوازيك <br>
+                    وانت الوحيد اللي سكن في حنيني <br><br>
+                    
+                    من يوم حبيتك وأنا بس اناجيك <br>
+                    وأنا ادري إنك ياحبيبي تبيني <br>
+                    ياما سهرت الليل مابين اياديك <br>
+                    واشوف رمشك بالسهر محتريني <br><br>
+                    
+                    عذروبي إني لاتناسيتك اطريك <br>
+                    وعذروبك إنك بين نفسي وبيني <br>
+                    والقلب ياكل الغلا ميت ٍ فيك <br>
+                    مدام حبك نقطة الضعف فيني
+                </p>
+            </div>
+        </div>
+
+        <!-- Slap & Hug Page -->
+        <div id="slapHug" class="page">
+            <h2>🤗 Slap or Hug TUT</h2>
+            <div class="face-container">
+                <div id="face">😆</div>
+                <p><strong>TUT</strong></p>
+            </div>
+            <button onclick="slapTUT()">👋 SLAP</button>
+            <span id="slapCount">0</span> times  
+            <br>
+            <button onclick="hugTUT()">🤗 HUG</button>
+            <span id="hugCount">0</span> times  
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
